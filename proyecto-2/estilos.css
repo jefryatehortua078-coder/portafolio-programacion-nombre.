@@ -1,0 +1,171 @@
+/* Variables de Colores Elegantes */
+:root {
+    --primary-gold: #d4af37;
+    --gold-hover: #f3e5ab;
+    --bg-dark: #0d0d0d;
+    --bg-card: #181818;
+    --bg-card-border: rgba(212, 175, 55, 0.25);
+    --text-light: #f5f5f5;
+    --text-muted: #a0a0a0;
+}
+
+/* Restablecimiento Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* Navegación y Encabezado */
+header {
+    background: rgba(13, 13, 13, 0.95);
+    border-bottom: 1px solid var(--bg-card-border);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-gold);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--primary-gold);
+}
+
+/* Contenedor General */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+/* Sección Hero */
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(180deg, rgba(212,175,55,0.1) 0%, rgba(13,13,13,1) 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    color: var(--primary-gold);
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+}
+
+/* Formulario de Calculadora */
+.calc-card {
+    background: var(--bg-card);
+    border: 1px solid var(--bg-card-border);
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.calc-card h2 {
+    color: var(--primary-gold);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-muted);
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 0.8rem;
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 1rem;
+    background: var(--primary-gold);
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background: var(--gold-hover);
+}
+
+/* Caja de Resultados */
+.result-box {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: rgba(212, 175, 55, 0.15);
+    border: 1px solid var(--primary-gold);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.result-box h3 {
+    color: var(--primary-gold);
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid var(--bg-card-border);
+    margin-top: 4rem;
+    color: var(--text-muted);
+}
