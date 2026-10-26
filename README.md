@@ -7,5 +7,7 @@ Lista De Proyectos
 
  Proyecto 1: [Llenos De Amor] 
  Este proyecto se realizo para la automatización de un restaurante escolar con su codigo base en PHP.
+
+
  Proyecto 2: [Aurum Joyeria]
  Este Proyecto se utiliza para la digitalizacion de una empresa que su trabajo esta basado de Oro. El codigo tiene como base PHP
